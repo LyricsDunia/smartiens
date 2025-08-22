@@ -1,4 +1,16 @@
-import React from "react";
+import React from 'react'; 
+import ReactDOM from 'react-dom'; 
+import Header from './components/Header'; 
+import Hero from './components/Hero';
+import TrendingItems from './components/TrendingItems'; 
+import BestDeals from './components/BestDeals'; 
+import AISearch from './components/AISearch'; 
+import FeatureComparison from './components/FeatureComparison'; 
+import FeaturedGadgets from './components/FeaturedGadgets'; 
+import Categories from './components/Categories'; 
+import PriceComparison from './components/PriceComparison'; 
+import Chatbot from './components/Chatbot'; 
+import Footer from './components/Footer';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
