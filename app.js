@@ -89,3 +89,4 @@ root.render(
     <App />
   </ErrorBoundary>
 );
+export default app
