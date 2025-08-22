@@ -1,6 +1,6 @@
 import React from "react";
 function Header() {
-  try {
+
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     return (
@@ -59,9 +59,6 @@ function Header() {
         )}
       </header>
     );
-  } catch (error) {
-    console.error('Header component error:', error);
-    return null;
-  }
+
 }
 export default Header;
