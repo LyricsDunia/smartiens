@@ -27,6 +27,7 @@ git commit -m "Initial commit: GadgetFinder application"
 
 # Add your GitHub repository as origin
 git remote add origin https://github.com/YOUR_USERNAME/gadget-finder.git
+git remote add origin https://github.com/LyricsDunia/smartiens.git
 
 # Push to GitHub
 git push -u origin main
