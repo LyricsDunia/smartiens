@@ -48,7 +48,7 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-function App() {
+function app() {
     const [searchQuery, setSearchQuery] = React.useState('');
     const [selectedCategory, setSelectedCategory] = React.useState('all');
     const [priceRange, setPriceRange] = React.useState([0, 200000]);
