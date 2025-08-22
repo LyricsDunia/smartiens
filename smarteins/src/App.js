@@ -49,7 +49,7 @@ class ErrorBoundary extends React.Component {
 }
 
 function App() {
-  try {
+
     const [searchQuery, setSearchQuery] = React.useState('');
     const [selectedCategory, setSelectedCategory] = React.useState('all');
     const [priceRange, setPriceRange] = React.useState([0, 200000]);
@@ -91,10 +91,7 @@ function App() {
         <Footer />
       </div>
     );
-  } catch (error) {
-    console.error('App component error:', error);
-    return null;
-  }
+ 
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -103,4 +100,4 @@ root.render(
     <App />
   </ErrorBoundary>
 );
-export default App
+export default App;
